@@ -1,16 +1,4 @@
-var dataset = [
-    
-    { name: 'China', percent: 18.54 },
-    { name: 'India', percent: 17.74 },
-    { name: 'U.S', percent: 4.28 },
-    { name: 'Indonesia', percent: 3.50 },
-    { name: 'Brazil', percent: 2.76 },
-    { name: 'Pakistan', percent: 2.63},
-    { name: 'Nigeria', percent: 2.57},
-    { name: 'Bangladesh', percent: 2.18},
-    { name: 'Russia', percent: 1.89},
-    { name: 'Mexico', percent: 1.71}
-];
+
  
 var pie=d3.layout.pie()
   .value(function(d){return d.percent})
