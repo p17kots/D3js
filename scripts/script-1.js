@@ -9,8 +9,7 @@ var dataset = [
     { name: 'Nigeria', percent: 2.57},
     { name: 'Bangladesh', percent: 2.18},
     { name: 'Russia', percent: 1.89},
-    { name: 'Mexico', percent: 1.71},
-    { name: 'Other', percent: 42.2}
+    { name: 'Other', percent: 43.91}
 ];
  
 var pie=d3.layout.pie()
