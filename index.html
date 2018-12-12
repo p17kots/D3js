@@ -6,17 +6,18 @@
         <title>World population percentage by country</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="stylesheets/style.css">
+	
     </head>
     
     <header> </header>
     
     <body style="background-color:#29384D;">	   
 <div class="widget">
-    <div class="header">World population percentage by country</div>
+    <div class="header"onmouseover="responsiveVoice.speak('World population percentage by country','US English Male');" onmouseleave="responsiveVoice.cancel();">World population percentage by country</div>
     <div id="chart" class="chart-container"></div>
 </div>
      <p><br><br></p>
-	     <div class="header">World population  since 1950 (milions)</div>
+	     <div class="header"onmouseover="responsiveVoice.speak('World population  since 1950 (milions)','US English Male');" onmouseleave="responsiveVoice.cancel();">World population  since 1950 (milions)</div>
      <p><br><br></p>
 	    
 	    <div class="chart">
@@ -26,8 +27,10 @@
 	    
         <script src="https://d3js.org/d3.v4.min.js"></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src='https://code.responsivevoice.org/responsivevoice.js'></script>      
         <script src="scripts/script-1.js"></script>
 	<script src="scripts/script-2.js"></script>
-	<script src="https://d3js.org/d3.v3.min.js"></script>
+	
     </body>
 </html>
