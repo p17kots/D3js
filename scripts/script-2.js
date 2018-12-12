@@ -1,3 +1,49 @@
+var data = [{
+    "value": "2536",
+    "date": "1950"
+}, {
+    "value": "2772",
+    "date": "1955"
+}, {
+    "value": "3033",
+    "date": "1960"
+}, {
+    "value": "3339",
+    "date": "1965"
+}, {
+    "value": "3700",
+    "date": "1970"
+}, {
+    "value": "4079",
+    "date": "1975"
+}, {
+    "value": "4458",
+    "date": "1980"
+}, {
+    "value": "4873",
+    "date": "1985"
+}, {
+    "value": "5330",
+    "date": "1990"
+}, {
+    "value": "5751",
+    "date": "1995"
+}, {
+    "value": "6145",
+    "date": "2000"
+}, {
+    "value": "6542",
+    "date": "2005"
+}, {
+    "value": "6958",
+    "date": "2010"
+}, {
+    "value": "7383",
+    "date": "2015"
+}, {
+    "value": "7669",
+    "date": "2018"
+}];
 
 
 var lineChart = d3.select("#lineChart");
@@ -97,49 +143,3 @@ points.on("mouseout",function(){
   textLineX.style("display","none");
 });
 
-var data = [{
-    "value": "2536",
-    "date": "1950"
-}, {
-    "value": "2772",
-    "date": "1955"
-}, {
-    "value": "3033",
-    "date": "1960"
-}, {
-    "value": "3339",
-    "date": "1965"
-}, {
-    "value": "3700",
-    "date": "1970"
-}, {
-    "value": "4079",
-    "date": "1975"
-}, {
-    "value": "4458",
-    "date": "1980"
-}, {
-    "value": "4873",
-    "date": "1985"
-}, {
-    "value": "5330",
-    "date": "1990"
-}, {
-    "value": "5751",
-    "date": "1995"
-}, {
-    "value": "6145",
-    "date": "2000"
-}, {
-    "value": "6542",
-    "date": "2005"
-}, {
-    "value": "6958",
-    "date": "2010"
-}, {
-    "value": "7383",
-    "date": "2015"
-}, {
-    "value": "7669",
-    "date": "2018"
-}];
