@@ -79,3 +79,8 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 12px;
 }
+.title {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 40px;
+}    
