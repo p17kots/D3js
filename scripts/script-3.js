@@ -1,3 +1,24 @@
+var data = [{
+  "name": "Asia",
+  "population": 4545,
+  
+}, {
+  "name": "Africa",
+  "population": 1287,
+}, {
+  "name": "Europe",
+  "population": 742,
+}, {
+  "name": "Latin America",
+  "population": 652,
+}, {
+  "name": "Northern America",
+  "population": 363,
+}, {
+  "name": "Oceania",
+  "population": 41,
+}];
+
 var margin = {
     top: 20,
     right: 20,
