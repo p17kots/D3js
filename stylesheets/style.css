@@ -87,5 +87,23 @@ body {
 }  
 
 
+.graph {
+    width: auto;
+    
+}
+
+.tooltip {
+    color:#000;
+}
+
+.axis {
+    font: 12px Georgia, Arial, sans-serif;
+}
+
+.axis path, .axis line {
+    fill: none;
+    shape-rendering: crispEdges;
+}
+
 
 
